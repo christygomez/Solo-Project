@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+// import ReactDOM from "react-dom";
+
 import './App.css';
 import Form from './components/Form/Form';
 // const unirest = require('unirest');
@@ -30,6 +32,7 @@ class App extends Component {
     // const cows
     return (
       <div className='App'>
+        {/* <div>{Form}</div> */}
         <h1 align='center'> Hello </h1>
         <div className='header'>header box</div>
         <div className='main'>main box</div>
@@ -45,7 +48,7 @@ class App extends Component {
             {/* <Form /> */}
           {/* </Grid> */}
         </div>
-        {/* <div>{Form}</div> */}
+        {/* <Container>{Form}</Container> */}
         <h1> {boxes} </h1>
         {/* <img src={cow1} /> */}
       </div>
@@ -53,4 +56,6 @@ class App extends Component {
   }
 }
 
+// ReactDOM.render(<App />, document.getElementById("app"));
 export default App;
+ 

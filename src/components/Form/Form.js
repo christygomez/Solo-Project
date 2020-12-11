@@ -15,5 +15,5 @@ class Form extends Component {
   }
 }
 
-// export default Form;
-module.exports = Form;
+export default Form;
+ 

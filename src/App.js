@@ -29,10 +29,11 @@ class App extends Component {
   // }
   render() {
     const boxes = [1, 2, 3, 4];
-    // const cows
+ 
     return (
       <div className='App'>
-        {/* <div>{Form}</div> */}
+ 
+
         <h1 align='center'> Hello </h1>
         <div className='header'>header box</div>
         <div className='main'>main box</div>
@@ -43,18 +44,14 @@ class App extends Component {
           className='img-responsive'
         />
         <div>
-          {/* {' '}
-          <Grid item xs={12} sm={4}> */}
-          {/* <Form /> */}
-          {/* </Grid> */}
+ 
         </div>
-        {/* <Container>{Form}</Container> */}
+       
         <h1> {boxes} </h1>
-        {/* <img src={cow1} /> */}
+ 
       </div>
     );
   }
 }
-
-// ReactDOM.render(<App />, document.getElementById("app"));
+ 
 export default App;

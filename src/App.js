@@ -45,7 +45,7 @@ class App extends Component {
         <div>
           {/* {' '}
           <Grid item xs={12} sm={4}> */}
-            {/* <Form /> */}
+          {/* <Form /> */}
           {/* </Grid> */}
         </div>
         {/* <Container>{Form}</Container> */}
@@ -58,4 +58,3 @@ class App extends Component {
 
 // ReactDOM.render(<App />, document.getElementById("app"));
 export default App;
- 

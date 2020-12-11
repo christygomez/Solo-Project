@@ -1,13 +1,13 @@
 {
-  "name": "Solo-Project",
+  "name": "solo-project",
   "version": "1.0.0",
   "description": "This is my solo-project to rate vegan milks.",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development & nodemon server.js",
     "build": "NODE_ENV=production nodemon server.js",
-    "dev": "webpack --mode development",
-    "hadInDevBefore":"NODE_ENV=development webpack-dev-server --open & nodemon server.js"
+    "dev2": "webpack --mode development",
+    "dev": "NODE_ENV=development webpack-dev-server --open & nodemon server.js"
   },
   "repository": {
     "type": "git",

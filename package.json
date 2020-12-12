@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development & nodemon server.js",
-    "build": "NODE_ENV=production nodemon server.js",
-    "dev2": "webpack --mode development",
+    "build": "NODE_ENV=production webpack",
     "dev": "NODE_ENV=development webpack-dev-server --open & nodemon server.js"
   },
   "repository": {
@@ -22,10 +21,10 @@
   "homepage": "https://github.com/christygomez/Solo-Project#readme",
   "devDependencies": {
     "@babel/cli": "^7.1.0",
-    "@babel/core": "^7.1.0",
-    "@babel/preset-env": "^7.1.0",
-    "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.2",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
     "css-loader": "^1.0.0",
     "file-loader": "^6.2.0",
     "style-loader": "^0.23.0",
@@ -37,8 +36,9 @@
   "dependencies": {
     "@material-ui/core": "^4.11.2",
     "express": "^4.17.1",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-file-base64": "^1.0.3",
     "unirest": "^0.6.0"
   }
 }

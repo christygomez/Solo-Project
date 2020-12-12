@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 
 import './App.css';
 import Form from './components/Form/Form';
+
 // const unirest = require('unirest');
 
 // const path = require('path');
@@ -10,7 +11,7 @@ import Form from './components/Form/Form';
 
 // const path = require("path");
 // import picture from '../solo-project-images/cows/images-1.jpg'
-import { render } from 'react-dom';
+// import { render } from 'react-dom';
 
 const apiKey = '0a7511d5b55d41808d35f7f3afc68940';
 
@@ -29,29 +30,27 @@ class App extends Component {
   // }
   render() {
     const boxes = [1, 2, 3, 4];
- 
+
     return (
       <div className='App'>
- 
-
-        <h1 align='center'> Hello </h1>
-        <div className='header'>header box</div>
-        <div className='main'>main box</div>
-        <img
-          src='https://ih1.redbubble.net/image.528681854.9548/flat,750x,075,f-pad,750x1000,f8f8f8.u8.jpg'
-          height='80'
-          alt='Picture not loading'
-          className='img-responsive'
-        />
-        <div>
- 
-        </div>
-       
-        <h1> {boxes} </h1>
- 
+        <h1 align='center'>
+          {' '}
+          Something{' '}
+          <img
+            align='center'
+            src='https://ih1.redbubble.net/image.528681854.9548/flat,750x,075,f-pad,750x1000,f8f8f8.u8.jpg'
+            height='80'
+            alt='Picture not loading'
+            className='img-responsive'
+          />
+        </h1>
+        {/* <h1> {boxes} </h1> */}
+        {/* <div className='header'>header box</div>
+        <div className='main'>main box</div> */}
+        <Form />
       </div>
     );
   }
 }
- 
+
 export default App;

@@ -41,9 +41,7 @@ import {
 } from '@material-ui/core';
 import FileBase from 'react-file-base64';
 import Posts from '../../components/Posts/Posts';
-
-//RATING ITEMS:
-// import Rating from '@material-ui/lab/Rating';
+import Stars from './Stars'
 
 class Form extends Component {
   constructor(props) {
@@ -73,12 +71,12 @@ class Form extends Component {
             name='creator'
             variant='outlined'
             label='Item Name'
-            fullWidth
             // value={postData.creator}
             // onChange={(e) =>
             //   setPostData({ ...postData, creator: e.target.value })
             // }
           />
+          <Stars></Stars>
 
           <TextField
             name='message'

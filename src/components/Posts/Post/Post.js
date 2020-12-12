@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+
 class Post extends Component {
   //   constructor(props) {
   //     super(props);
@@ -16,6 +17,7 @@ class Post extends Component {
         <button>Submit</button>
         <button>Edit</button>
         <button>Delete</button>
+
       </>
     );
   }
